@@ -1,0 +1,129 @@
+#experience {
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  width: 100vw;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  max-width: 85rem;
+}
+
+.experience-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: slideInFromTop 1s ease-out;
+}
+
+.experience-header h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.experience-header p {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+/* Company Card */
+.company-card {
+  background: #1e1e1e;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.company-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+}
+
+.company-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.company-header h2 {
+  font-size: 2rem;
+  color: #007aff;
+}
+
+.badge {
+  background: #ff5722;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+}
+
+.company-card h3 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.date, .location, .description {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.experienceDivider {
+  width: 100%;
+  height: 1.5px;
+  background: linear-gradient(to right, #ff0000, #0000ff); /* Adjusted gradient colors */
+  margin: 5rem 0;
+}
+
+/* Animations */
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-header h1 {
+    font-size: 2.2rem;
+  }
+  .company-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-header h1 {
+    font-size: 1.8rem;
+  }
+  .company-card {
+    padding: 1rem;
+  }
+}

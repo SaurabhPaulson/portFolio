@@ -12,6 +12,8 @@ import Git from '../../assets/skills/git.svg'
 import Swagger from '../../assets/skills/swagger.svg'
 import MaterialUI from '../../assets/skills/materialui.svg'
 import Docker from '../../assets/skills/docker.svg'
+import mongoDB from '../../assets/skills/mongoDB.svg'
+import mysql from '../../assets/skills/mysql.svg'
 
 const Skills = () => {
     const skillsData = [
@@ -20,6 +22,8 @@ const Skills = () => {
         { name: "JavaScript", imgSrc: JavaScript },
         { name: "React.js", imgSrc: ReactJS },
         { name: "Node.js", imgSrc: Node },
+        { name: "MongoDB", imgSrc: mongoDB },
+        { name: "MySQL", imgSrc: mysql },
         { name: "PostgreSQL", imgSrc: PostgreSQL },
         { name: "GCP", imgSrc: GCP },
         { name: "Git", imgSrc: Git },
