@@ -73,11 +73,28 @@
   color: #fff;
 }
 
-.date, .location, .description {
+.date, .location {
   font-size: 1rem;
   color: #ccc;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
+  font-style: italic;
 }
+
+.location {
+  margin-bottom: 1.5rem; 
+}
+
+.description {
+  list-style-type: disc; 
+  margin-left: 1.5rem; 
+  padding-left: 0;
+}
+
+.description li {
+  margin-bottom: 1rem; 
+  line-height: 1.5; 
+}
+
 
 .experienceDivider {
   width: 100%;

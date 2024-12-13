@@ -9,9 +9,11 @@ const Experience = () => {
     end: "Present",
     location: "Kochi, India",
     description: [
-      "Spearheaded the development of a patented Digital Out-Of-Home (DOOH) platform.",
-      "Developed an Ad Exchange platform that connects advertisers, brands, and publishers to high-demand ad inventory, optimizing campaign reach and performance.",
-      "Utilized a diverse tech stack including React.js, Express.js, BigQuery, Redis, and various Google Cloud Platform (GCP) services like Cloud Functions, Cloud Storage, Cloud SQL, and Cloud Build.",
+      "Spearheaded the development of the end-to-end 'Perpetual' Ad Exchange platform, leveraging Node.js, Express.js, React.js, and PostgreSQL.",
+      "Created multiple responsive pages for the project using HTML, CSS, and React, and created comprehensive Swagger documentation for the complete project APIs, ensuring clarity and ease of use for developers.",
+      "Developed Progressive Web Apps (PWA) and created a new version to display ads only and ads with playlists, showcasing versatility in frontend technologies like HTML, CSS, JavaScript, and backend Node.js development.",
+      "Designed and implemented numerous APIs with efficient, clean, and optimized code. Developed and executed unit tests to ensure robust and reliable backend functionality.",
+      "Mentored junior team members, assisting with tasks and clearing doubts, fostering a collaborative and productive team environment, demonstrating leadership and communication skills.",
     ],
   };
 
