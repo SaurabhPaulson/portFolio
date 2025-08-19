@@ -7,13 +7,17 @@
     position: relative;
 }
 
-.bg{
+.bg {
     position: absolute;
-    top: -4rem;
     right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     z-index: -1;
-    object-fit: cover;
-    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    display: block;
 }
 
 .homeContent{
