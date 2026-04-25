@@ -2,8 +2,7 @@ import React from 'react';
 import './skills.css';
 import Marquee from 'react-fast-marquee';
 import {
-  SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs,
-  SiPostgresql, SiGooglecloud, SiGit, SiSwagger, SiDocker,
+  SiReact, SiNodedotjs, SiPostgresql, SiGooglecloud, SiGit, SiSwagger, SiDocker,
   SiExpress, SiRedux, SiPwa, SiRedis, SiRabbitmq,
   SiSocketdotio, SiSequelize, SiTypeorm, SiAmazonwebservices
 } from "react-icons/si";
