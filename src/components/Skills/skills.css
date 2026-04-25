@@ -30,10 +30,10 @@
 }
 
 
-.skill-icon {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 8px;
+.skill-icon-wrapper svg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 12px;
 }
 
 .title{
